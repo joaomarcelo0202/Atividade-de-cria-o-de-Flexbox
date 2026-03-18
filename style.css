@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 20px 10px 10px rgba(0, 0, 0, 0.377);
+}
+
+h1 {
+    font-family: 'Rubik Wet Paint', system-ui;
+    margin-top: 40px;
+    color: #3a1d1d;
+    text-align: center;
+}
+
+.container1, .container-dois {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: rgb(78, 25, 25);
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 2px solid #333;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.666);
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #333;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.container1 .caixa {
+    background-color: #946f6f;
+    border-radius: 70%;
+}
+
+.container-dois .caixa {
+    background-color: #ccffcc;
+    border-color: #3a1d1d;
+}
